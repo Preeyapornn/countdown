@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap");
+
+:root {
+  --primaryBlue: hsl(237, 18%, 59%);
+  --primaryRed: hsl(345, 95%, 68%);
+  --secondaryDarkBlue: hsl(236, 21%, 26%);
+  --secondaryVeryBlue: hsl(235, 16%, 14%);
+  --secondaryMostBlue: hsl(234, 17%, 12%);
+}
+
+body {
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primaryBlue);
+  background-color: var(--secondaryMostBlue);
+  margin-top: 50px;
+}
